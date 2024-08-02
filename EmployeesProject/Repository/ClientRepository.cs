@@ -15,5 +15,9 @@ namespace EmployeesProject.Repository
         {
             return _context.Clients.ToList();
         }
+
+        public Client GetClientById(int clientId) {
+            return _context.Clients.Where(c=>c.Id == clientId).FirstOrDefault();
+        }
     }
 }

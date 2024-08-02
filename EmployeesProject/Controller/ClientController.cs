@@ -33,5 +33,24 @@ namespace EmployeesProject.Controllers
             }
             return Ok(mappedClients);
         }
+
+        [HttpGet("{clientid}")]
+        [ProducesResponseType(200, Type = typeof(Client))]
+        public IActionResult GetClientbyid(int clientid)
+        {
+            var client = _client.GetClientById(clientid);
+            
+            if(client == null)
+            {
+                ModelState.AddModelError("", "No Client with this id exists");
+                return BadRequest(ModelState);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            return Ok(client);
+        }
     }
 }

@@ -1,4 +1,6 @@
-﻿using EmployeesProject.Interfaces;
+﻿using AutoMapper;
+using EmployeesProject.Dto;
+using EmployeesProject.Interfaces;
 using EmployeesProject.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,21 +12,43 @@ namespace EmployeesProject.Controllers
     public class StateController : ControllerBase
     {
         private readonly IState _state;       
-        public StateController(IState state)
+        private readonly IMapper _mapper;       
+        public StateController(IState state, IMapper mapper)
         {
             _state = state;
+            _mapper = mapper;
         }
 
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(IEnumerable<State>))]
 
         public IActionResult GetAllStates() {
-            var states = _state.GtAllStates();
+            var states = _state.GetAllStates();
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            return Ok(states);
+            var mappedStates= _mapper.Map<List<EmployeeStateDto>>(states);
+            return Ok(mappedStates);
+        }
+
+        [HttpGet("{stateId}")]
+        [ProducesResponseType(200, Type = typeof(State))]
+        public IActionResult GetStateByid(int stateId)
+        {
+            var foundState = _state.GetStateById(stateId);
+
+            if (foundState == null)
+            {
+                ModelState.AddModelError("", "No State Found");
+                return BadRequest(ModelState);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            return Ok(foundState);
         }
     }
 }

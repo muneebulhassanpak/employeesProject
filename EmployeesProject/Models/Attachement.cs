@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EmployeesProject.Models
 {
-    public partial class File
+    public partial class Attachement
     {
         public int Id { get; set; }
         public string Name { get; set; } = null!;

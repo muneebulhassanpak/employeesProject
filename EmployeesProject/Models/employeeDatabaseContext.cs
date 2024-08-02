@@ -16,10 +16,10 @@ namespace EmployeesProject.Models
         {
         }
 
+        public virtual DbSet<Attachement> Attachements { get; set; } = null!;
         public virtual DbSet<Client> Clients { get; set; } = null!;
         public virtual DbSet<Employee> Employees { get; set; } = null!;
-        public virtual DbSet<EmployeeState> EmployeeStates { get; set; } = null!;
-        public virtual DbSet<File> Files { get; set; } = null!;
+        public virtual DbSet<Employeestate> Employeestates { get; set; } = null!;
         public virtual DbSet<State> States { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -32,6 +32,36 @@ namespace EmployeesProject.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Attachement>(entity =>
+            {
+                entity.ToTable("Attachement");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasDefaultValueSql("nextval('file_id_seq'::regclass)");
+
+                entity.Property(e => e.Basecode).HasColumnName("basecode");
+
+                entity.Property(e => e.EmployeeId).HasColumnName("employee_id");
+
+                entity.Property(e => e.Name)
+                    .HasMaxLength(255)
+                    .HasColumnName("name");
+
+                entity.Property(e => e.Size)
+                    .HasPrecision(10, 2)
+                    .HasColumnName("size");
+
+                entity.Property(e => e.Type)
+                    .HasMaxLength(50)
+                    .HasColumnName("type");
+
+                entity.HasOne(d => d.Employee)
+                    .WithMany(p => p.Attachements)
+                    .HasForeignKey(d => d.EmployeeId)
+                    .HasConstraintName("file_employee_id_fkey");
+            });
+
             modelBuilder.Entity<Client>(entity =>
             {
                 entity.ToTable("client");
@@ -85,53 +115,25 @@ namespace EmployeesProject.Models
                     .HasConstraintName("employees_client_id_fkey");
             });
 
-            modelBuilder.Entity<EmployeeState>(entity =>
+            modelBuilder.Entity<Employeestate>(entity =>
             {
-                entity.HasNoKey();
+                entity.ToTable("employeestate");
 
-                entity.ToTable("employeeState");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.EmployeeId).HasColumnName("employee_id");
 
                 entity.Property(e => e.StateId).HasColumnName("state_id");
 
                 entity.HasOne(d => d.Employee)
-                    .WithMany()
+                    .WithMany(p => p.Employeestates)
                     .HasForeignKey(d => d.EmployeeId)
                     .HasConstraintName("employeestate_employee_id_fkey");
 
                 entity.HasOne(d => d.State)
-                    .WithMany()
+                    .WithMany(p => p.Employeestates)
                     .HasForeignKey(d => d.StateId)
                     .HasConstraintName("employeestate_state_id_fkey");
-            });
-
-            modelBuilder.Entity<File>(entity =>
-            {
-                entity.ToTable("file");
-
-                entity.Property(e => e.Id).HasColumnName("id");
-
-                entity.Property(e => e.Basecode).HasColumnName("basecode");
-
-                entity.Property(e => e.EmployeeId).HasColumnName("employee_id");
-
-                entity.Property(e => e.Name)
-                    .HasMaxLength(255)
-                    .HasColumnName("name");
-
-                entity.Property(e => e.Size)
-                    .HasPrecision(10, 2)
-                    .HasColumnName("size");
-
-                entity.Property(e => e.Type)
-                    .HasMaxLength(50)
-                    .HasColumnName("type");
-
-                entity.HasOne(d => d.Employee)
-                    .WithMany(p => p.Files)
-                    .HasForeignKey(d => d.EmployeeId)
-                    .HasConstraintName("file_employee_id_fkey");
             });
 
             modelBuilder.Entity<State>(entity =>

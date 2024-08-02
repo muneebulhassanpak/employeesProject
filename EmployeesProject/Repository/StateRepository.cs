@@ -11,9 +11,19 @@ namespace EmployeesProject.Repository
             this._context = context;
         }
 
-        public ICollection<State> GtAllStates()
+        public ICollection<State> GetAllStates()
         {
            return  _context.States.ToList();
+        }
+
+        public State GetStateById(int stateId)
+        {
+            return _context.States.Where(c => c.Id == stateId).FirstOrDefault();
+        }
+        public string GetStateNameById(int id)
+        {
+            return _context.States.Where(c => c.Id == id).FirstOrDefault().Name;
+
         }
     }
 }

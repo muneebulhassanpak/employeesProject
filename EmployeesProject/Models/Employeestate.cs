@@ -3,8 +3,9 @@ using System.Collections.Generic;
 
 namespace EmployeesProject.Models
 {
-    public partial class EmployeeState
+    public partial class Employeestate
     {
+        public int Id { get; set; }
         public int StateId { get; set; }
         public int EmployeeId { get; set; }
 

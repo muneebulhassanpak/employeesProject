@@ -7,7 +7,8 @@ namespace EmployeesProject.Models
     {
         public Employee()
         {
-            Files = new HashSet<File>();
+            Attachements = new HashSet<Attachement>();
+            Employeestates = new HashSet<Employeestate>();
         }
 
         public int Id { get; set; }
@@ -23,6 +24,7 @@ namespace EmployeesProject.Models
         public int ClientId { get; set; }
 
         public virtual Client Client { get; set; } = null!;
-        public virtual ICollection<File> Files { get; set; }
+        public virtual ICollection<Attachement> Attachements { get; set; }
+        public virtual ICollection<Employeestate> Employeestates { get; set; }
     }
 }

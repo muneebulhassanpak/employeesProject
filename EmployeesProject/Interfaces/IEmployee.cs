@@ -1,4 +1,5 @@
-﻿using EmployeesProject.Models;
+﻿using EmployeesProject.Dto;
+using EmployeesProject.Models;
 
 namespace EmployeesProject.Interfaces
 {
@@ -8,5 +9,9 @@ namespace EmployeesProject.Interfaces
         public int CountTotalEmployees();
 
         public Employee GetEmployeeById(int employeeId);
+
+        public Task<Employee> CreateNewEmployee(NewEmployeeDto newEmployeeDto);
+
+        public bool Save();
     }
 }

@@ -42,3 +42,4 @@ C:\Users\muneeb\source\repos\EmployeesProject\EmployeesProject\obj\Debug\net6.0\
 C:\Users\muneeb\source\repos\EmployeesProject\EmployeesProject\obj\Debug\net6.0\ref\EmployeesProject.dll
 C:\Users\muneeb\source\repos\EmployeesProject\EmployeesProject\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\muneeb\source\repos\EmployeesProject\EmployeesProject\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\muneeb\source\repos\EmployeesProject\EmployeesProject\obj\Debug\net6.0\EmployeesProject.sourcelink.json
