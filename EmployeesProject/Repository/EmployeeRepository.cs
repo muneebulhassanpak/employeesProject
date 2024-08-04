@@ -4,6 +4,8 @@ using EmployeesProject.Models;
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
+using System.Net.Mail;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeesProject.Repository
 {
@@ -59,6 +61,38 @@ namespace EmployeesProject.Repository
 
             return employee;
         }
+        public async Task<Employee?> EditEmployee(NewEmployeeDto newEmployeeDto)
+        {
+            var empId = newEmployeeDto.Id;
+
+            var targetEmployee = await _context.Employees.AsNoTracking()
+                .Include(e => e.Employeestates)
+                .Include(e => e.Attachements)
+                .FirstOrDefaultAsync(e => e.Id == empId);
+
+            if (targetEmployee == null)
+            {
+                return null;
+            }
+
+            // Update targetEmployee with newEmployeeDto properties
+            _mapper.Map(newEmployeeDto, targetEmployee);
+            _context.Entry(targetEmployee).State = EntityState.Detached;
+
+            // Remove existing states and attachments
+            _context.Employeestates.RemoveRange(targetEmployee.Employeestates);
+            _context.Attachements.RemoveRange(targetEmployee.Attachements);
+
+            // Add updated states and attachments
+            targetEmployee.Employeestates = newEmployeeDto.Employeestates.Select(es => _mapper.Map<Employeestate>(es)).ToList();
+            targetEmployee.Attachements = newEmployeeDto.Attachements.Select(a => _mapper.Map<Attachement>(a)).ToList();
+
+
+            await _context.SaveChangesAsync();
+
+            return targetEmployee;
+        }
+
 
 
 

@@ -116,6 +116,35 @@ namespace EmployeesProject.Controller
             return Ok(mappedEmployee);
         }
 
+        [HttpPut("editEmployee")]
+        [ProducesResponseType(201, Type = typeof(EmployeeDto))]
+        [ProducesResponseType(400)]
+        public async Task<IActionResult> EditEmployee(NewEmployeeDto newEmployeeDto)
+        {
+            if (newEmployeeDto == null)
+            {
+                ModelState.AddModelError("", "Employee data is null");
+                return BadRequest(ModelState);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var newEmployee =  await _employee.EditEmployee(newEmployeeDto);
+
+            if (newEmployee==null)
+            {
+                ModelState.AddModelError("", "Creating employee failed on save");
+                return StatusCode(500, ModelState);
+            }
+
+            var mappedEmployee = _maaper.Map<EmployeeDto>(newEmployee);
+
+            return Ok(mappedEmployee);
+        }
+
 
     }
 }

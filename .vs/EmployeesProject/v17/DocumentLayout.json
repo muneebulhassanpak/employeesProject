@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\dto\\newemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\dto\\newemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,40 +11,52 @@
       "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\interfaces\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\models\\employeestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\models\\employeestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\controller\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\controller\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\models\\employeedatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\models\\employeedatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\dto\\newemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\dto\\newemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\dto\\employeestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\dto\\employeestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\dto\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\dto\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\models\\employeestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\models\\employeestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\models\\attachement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\models\\attachement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\controller\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\controller\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|c:\\users\\muneeb\\source\\repos\\employeesproject\\employeesproject\\dto\\employeestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB50B0E-8043-48AB-9DC5-884F6414DA61}|EmployeesProject\\EmployeesProject.csproj|solutionrelative:employeesproject\\dto\\employeestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,68 +66,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Controller\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "EmployeesProject\\Controller\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Controller\\EmployeeController.cs",
-              "RelativeToolTip": "EmployeesProject\\Controller\\EmployeeController.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:40:27.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "EmployeesProject\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Employee.cs",
-              "RelativeToolTip": "EmployeesProject\\Models\\Employee.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA3wBoAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:39:18.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "NewEmployeeDto.cs",
               "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\NewEmployeeDto.cs",
               "RelativeDocumentMoniker": "EmployeesProject\\Dto\\NewEmployeeDto.cs",
               "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\NewEmployeeDto.cs",
               "RelativeToolTip": "EmployeesProject\\Dto\\NewEmployeeDto.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBEAAAA0AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:38:08.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Repository\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "EmployeesProject\\Repository\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Repository\\EmployeeRepository.cs",
-              "RelativeToolTip": "EmployeesProject\\Repository\\EmployeeRepository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwDMAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:40:12.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Interfaces\\IEmployee.cs",
-              "RelativeDocumentMoniker": "EmployeesProject\\Interfaces\\IEmployee.cs",
-              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Interfaces\\IEmployee.cs",
-              "RelativeToolTip": "EmployeesProject\\Interfaces\\IEmployee.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAzwAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T13:40:57.047Z"
+              "WhenOpened": "2024-08-01T08:38:08.201Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -133,25 +89,131 @@
               "RelativeDocumentMoniker": "EmployeesProject\\Dto\\EmployeeDto.cs",
               "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\EmployeeDto.cs",
               "RelativeToolTip": "EmployeesProject\\Dto\\EmployeeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:01:09.449Z"
+              "WhenOpened": "2024-08-01T09:01:09.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeesProject\\Models\\Employee.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:39:18.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Client.cs",
+              "RelativeToolTip": "EmployeesProject\\Models\\Client.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:57:20.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employeestate.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Employeestate.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Models\\Employeestate.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Employeestate.cs",
+              "RelativeToolTip": "EmployeesProject\\Models\\Employeestate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:48:46.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "EmployeesProject\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAIwDEAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:40:12.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Controller\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Controller\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Controller\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeesProject\\Controller\\EmployeeController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAcwIYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:40:27.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Interfaces\\IEmployee.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Interfaces\\IEmployee.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Interfaces\\IEmployee.cs",
+              "RelativeToolTip": "EmployeesProject\\Interfaces\\IEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T13:40:57.047Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "employeeDatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\employeeDatabaseContext.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Models\\employeeDatabaseContext.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\employeeDatabaseContext.cs",
+              "RelativeToolTip": "EmployeesProject\\Models\\employeeDatabaseContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T12:47:39.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Helpers\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "EmployeesProject\\Helpers\\MappingProfiles.cs",
               "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Helpers\\MappingProfiles.cs",
               "RelativeToolTip": "EmployeesProject\\Helpers\\MappingProfiles.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAkwB4AAABGAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:40:59.55Z"
+              "WhenOpened": "2024-08-01T08:40:59.55Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "ClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\ClientDto.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Dto\\ClientDto.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\ClientDto.cs",
+              "RelativeToolTip": "EmployeesProject\\Dto\\ClientDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:53:10.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FileDto.cs",
               "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\FileDto.cs",
               "RelativeDocumentMoniker": "EmployeesProject\\Dto\\FileDto.cs",
@@ -159,11 +221,25 @@
               "RelativeToolTip": "EmployeesProject\\Dto\\FileDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAwwAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:10:52.233Z"
+              "WhenOpened": "2024-08-01T09:10:52.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Controller\\StateController.cs",
+              "RelativeDocumentMoniker": "EmployeesProject\\Controller\\StateController.cs",
+              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Controller\\StateController.cs",
+              "RelativeToolTip": "EmployeesProject\\Controller\\StateController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:21:05.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "EmployeeStateDto.cs",
               "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\EmployeeStateDto.cs",
               "RelativeDocumentMoniker": "EmployeesProject\\Dto\\EmployeeStateDto.cs",
@@ -172,54 +248,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T11:06:09.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Employeestate.cs",
-              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Employeestate.cs",
-              "RelativeDocumentMoniker": "EmployeesProject\\Models\\Employeestate.cs",
-              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Employeestate.cs",
-              "RelativeToolTip": "EmployeesProject\\Models\\Employeestate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T10:48:46.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClientDto.cs",
-              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\ClientDto.cs",
-              "RelativeDocumentMoniker": "EmployeesProject\\Dto\\ClientDto.cs",
-              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Dto\\ClientDto.cs",
-              "RelativeToolTip": "EmployeesProject\\Dto\\ClientDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:53:10.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Attachement.cs",
-              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Attachement.cs",
-              "RelativeDocumentMoniker": "EmployeesProject\\Models\\Attachement.cs",
-              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Attachement.cs",
-              "RelativeToolTip": "EmployeesProject\\Models\\Attachement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:11:10.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "EmployeesProject\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\muneeb\\source\\repos\\EmployeesProject\\EmployeesProject\\Models\\Client.cs",
-              "RelativeToolTip": "EmployeesProject\\Models\\Client.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T10:57:20.74Z"
             }
           ]
         }

@@ -12,6 +12,9 @@ namespace EmployeesProject.Interfaces
 
         public Task<Employee> CreateNewEmployee(NewEmployeeDto newEmployeeDto);
 
+        public Task<Employee> EditEmployee(NewEmployeeDto newEmployeeDto);
+
+
         public bool Save();
     }
 }

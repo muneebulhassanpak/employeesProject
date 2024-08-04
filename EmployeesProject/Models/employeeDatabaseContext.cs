@@ -119,7 +119,10 @@ namespace EmployeesProject.Models
             {
                 entity.ToTable("employeestate");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .UseIdentityAlwaysColumn()
+                    .HasIdentityOptions(26L);
 
                 entity.Property(e => e.EmployeeId).HasColumnName("employee_id");
 
